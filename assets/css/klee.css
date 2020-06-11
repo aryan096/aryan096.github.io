@@ -526,9 +526,9 @@ b, strong {
 .page-wrapper {
     position: relative;
     min-height: 100%;
-    width: calc(100% - 190px);
+    width: calc(100% - 300px);
     float: left;
-    margin-left: 190px;
+    margin-left: 300px;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
     -ms-transition: all 0.2s ease-in-out 0s;
