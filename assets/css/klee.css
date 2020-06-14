@@ -1201,7 +1201,14 @@ hr.solid {
 }
 
 .blog-text {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.blog-text h3 {
+  font-size: 24px;
+}
+
+ul.bullets{
 }
 
 .blog-photo {

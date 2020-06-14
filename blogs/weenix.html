@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Weenix | Aryan Srivastava</title>
 	<meta name="description" content="Weenix" />
-	<meta name="keywords" content="blog resume portfolio student brown university computer science weenix" />
+	<meta name="keywords" content="blog resume portfolio student brown university computer science" />
 	<meta name="author" content="aryan096" />
 	<meta name="theme-color" content="#ffffff">
 
@@ -45,70 +45,111 @@
 
 			<nav class="navbar text-center align-items-center justify-content-center">
 
-                <div class="collapse navbar-collapse show" id="navbarCollapse">
-                	<div class="about-avatar mb-4">
-						<img src="../assets/images/about.jpg" alt="" class="img-fluid mx-auto d-block shadow-sm rounded-full">
-					</div>
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                    </ul>
+        <div class="collapse navbar-collapse show" id="navbarCollapse">
 
-                </div>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#resume">resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#work">work</a>
+                </li>
 
-               	<div class="aside-footer">
-                	<ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-	        </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#contact">Contact</a>
+                </li>
+            </ul>
+
         </div>
+
+        <div class="aside-footer">
+          <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href="https://github.com/aryan096"><i class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/aryan-s-b58598129/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/aryansrivastava096"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+        </div>
+	     </nav>
+    </div>
         <!-- END: NAVBAR -->
     </aside>
 
     <div class="page-wrapper">
 
 		<!-- START: BLOG -->
-
-		<section class="section section-about" id="about">
+    <div id="blog-wrap">
+		<section class="blog-section section-about" id="about">
 			<div class="container">
-				<div class="section-head">
+				<div class="blog-head">
 					<span></span>
 					<h2>Weenix</h2>
 				</div>
 
-				<div class="row justify-content-center align-items-center">
-					<div class="col-md-12">
-							<div class="blog-text">
-								<p>I am studying Computer Science at Brown University<br><br>
-									My primary interests are in systems design, distributed systems, and product development and innovation. I am currently working as a Systems Programmer, Operator, and Consultant at Brown University CS, and
-									designing the curriculum for Brown RISD Innovation Community as one of the founding leaders.<br><br>
-									I love painting, sketching, photography, and anything that helps me create visually appealing and meaningful work. Other hobbies include backpacking and camping, basketball, and gaming.<br><br>
-									I am always looking for new opportunites to learn new skills and work on exciting projects. Feel free to reach out to me with opportunites you think I may be interested in.
-								</p>
-							</div>
-					</div>
-				</div>
+        <hr class="solid">
+
+        <!-- OVERVIEW -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12">
+              <div class="blog-text">
+                <h3>Overview</h3>
+                <p>
+                  <br>
+                  In Spring 2020, my sophomore spring semester, I developed an operating system kernel called "Weenix" as part of CSCI1670: Operating Systems course (and its optional half-credit lab CSCI1690: Operating Systems Laboratory) at Brown University. Because of COVID-19 and college campus closures, it was quite challenging to complete this project. I was able to finish the implementation with a week left! 
+                  <br><br>
+                  I worked on the following aspects of the kernel - <br><br>
+                  >  <span style="color:white;">Procs:</span> Kernel threads, processes, and mutexes. <br>
+                  >  <span style="color:white;">Drivers:</span> Device drivers for terminals, disks, and memory devices. <br>
+                  >  <span style="color:white;">VFS (Virtual File System):</span> Interface between the OS and file systems (RAMFS, VFS, and S5FS).<br>
+                  >  <span style="color:white;">S5FS (System V File System):</span> Implementation of the S5FS File System used on the original Unix FS.<br>
+                  >  <span style="color:white;">VM (Virtual Memory):</span> Virtual memory implementation to manage user address space, run user-level code, service system calls, and various other things to put all parts of the kernel together into a functioning operating system. Other functions include virtual memory mapping, handling page faults, memory management via anonymous objects and shadow objects, and the fork system call (along with others).<br>
+                </p>
+              </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <!-- SCREENSHOTS -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12">
+              <div class="blog-text">
+                <h3>Screenshots</h3>
+                <br>
+                <img class="blog-photo" src="../assets/images/weenix_screens/main.png" alt="">
+                <p><br>Startup screen.</p>
+
+                <br>
+                <img class="blog-photo" src="../assets/images/weenix_screens/list.png" alt="">
+                <p><br>List of shell commands.</p>
+
+                <br>
+                <img class="blog-photo" src="../assets/images/weenix_screens/kshell.png" alt="">
+                <p><br>Kshell.</p>
+
+                <br>
+                <img class="blog-photo" src="../assets/images/weenix_screens/tests.png" alt="">
+                <p><br>Tests for VFS and S5FS</p>
+              </div>
+          </div>
+        </div>
 
 				<br>
+        <br>
 
-				<div class="row justify-content-center align-items-center">
-					<div class="col-md-12">
-							<div class="blog-text">
-								<p>This is second paragraph haha
-								</p>
-							</div>
-					</div>
-				</div>
+
 
 
 
 			</div>
 		</section>
+    </div>
 		<!-- END: BLOG -->
 
 		<!--START: FOOTER-->
