@@ -884,11 +884,13 @@ b, strong {
     transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
 }
 figure {
-    margin: 0;
+    margin: 10px;
     overflow: hidden;
     position: relative;
     border-radius: 25px;
     box-shadow: 5px 5px 18px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03);
+    height: 220.783px;
+    background: #b3b3b3;
 }
 .list-items-container .list-item figcaption {
     background: rgba(0,0,0,0.2);
@@ -922,19 +924,23 @@ figure {
     top: 50%;
     width: 100%;
     margin-top: -20px;
+    min-height: 240px;
 }
 
 .caption-inner .portfolio-item-title {
     color: #fff;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 500;
+    text-shadow: 2px 2px #000000;
 }
 
 .caption-inner .portfolio-item-desc {
-    color: #ddd;
-    font-size: 13px;
+    color: #fff;
+    font-size: 18px;
     font-style: italic;
+    text-shadow: 2px 2px #000000;
 }
+
 
 #portfolio .list-items-container .list-item:hover img {
     filter: blur(6px);
