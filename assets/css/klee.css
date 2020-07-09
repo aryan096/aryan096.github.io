@@ -1358,7 +1358,7 @@ ul.bullets{
         max-width: 100%;
     }
 
-    .aside {
+    /* .aside {
         left: -300px;
         min-width: 300px;
     }
@@ -1378,7 +1378,7 @@ ul.bullets{
         margin-top: -50px;
         position: relative;
         z-index: 1
-    }
+    } */
 
     .../assetsapper {
         width: 100%;
@@ -1419,16 +1419,17 @@ ul.bullets{
         height: 130px;
         width: 130px;
     }
-
+/* 
     .aside {
         min-width: 290px;
         left: -290px;
         width: auto;
-    }
+    } */
 
-    .aside-footer ul {
+    
+    /* .aside-footer ul {
         padding: 15px 10px;
-    }
+    } */
 
     .glass {
         font-size: 8vh;
