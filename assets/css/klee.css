@@ -1358,6 +1358,11 @@ ul.bullets{
         max-width: 100%;
     }
 
+    .glass {
+        font-size: 7vh;
+        font-weight: 250;
+    }
+
     /* .aside {
         left: -300px;
         min-width: 300px;
@@ -1432,8 +1437,8 @@ ul.bullets{
     } */
 
     .glass {
-        font-size: 7vh;
-        font-weight: 250;
+        font-size: 5vh;
+        font-weight: 300;
     }
 
     .portfolio-item--img img {
