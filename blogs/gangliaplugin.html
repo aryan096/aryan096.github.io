@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OyeSpace | Aryan Srivastava</title>
-	<meta name="description" content="OyeSpace" />
+	<title>Ganglia Feed API | Aryan Srivastava</title>
+	<meta name="description" content="Ganglia Feed API" />
 	<meta name="keywords" content="blog resume portfolio student brown university computer science" />
 	<meta name="author" content="aryan096" />
 	<meta name="theme-color" content="#ffffff">
@@ -89,7 +89,7 @@
 			<div class="container">
 				<div class="blog-head">
 					<span></span>
-					<h2>OyeSpace</h2>
+					<h2>Ganglia Feed API</h2>
 				</div>
 
         <hr class="solid">
@@ -100,10 +100,16 @@
               <div class="blog-text">
                 <h3>Overview</h3>
                 <p>
-                  I am currently working on a project to provide a live feed of all the computers in the Center for Information
-                  Technology (CIT) with the help of the technical staff (tstaff). <br><br>
-                  After completion, Where2CIT (placeholder name) will help students and faculty quickly find a vacant machine,
-                  visualize usage, and report problems easily with a form. 
+                  <br>
+                  During Summer 2020, I wrote a plugin for the <a href = "http://ganglia.sourceforge.net/">Ganglia Monitoring System</a> that the technical staff at Brown University Computer Science 
+                  uses to monitor console users on the BrownCS Grid of workstations, servers, and other computers. The plugin enables the tracking of physical console users on all the computers.
+                  In other words, it gives the t-staff the ability to check if someone is physically logged onto a computer. <br>
+                  <br>
+                  I wrote the plugin using Python.
+                  <br><br>
+                  <img class="blog-photo" src="../assets/images/perfmon.png" alt="">
+                <p><br>A graph on perfmon - a metric collection tool - showing the presence of a physical 
+                user on the computer. A value of 1 represents a physical log in, 0 otherwise.</p>
                 </p>
               </div>
           </div>
@@ -112,22 +118,25 @@
         <br>
         <br>
         <!-- SCREENSHOTS -->
-        <div class="row justify-content-center align-items-center">
+        <!-- <div class="row justify-content-center align-items-center">
           <div class="col-md-12">
               <div class="blog-text">
-                <h3>Sketches</h3>
+                <h3>Screenshots</h3>
                 <br>
-                <img class="blog-photo" src="../assets/images/oyespace/amenities.png" alt="">
-                <p><br>Main view with a map of the room selected.</p>
+                <img class="blog-photo" src="../assets/images/weenix_screens/main.png" alt="">
+                <p><br>Startup screen.</p>
 
                 <br>
-                <img class="blog-photo" src="../assets/images/oyespace/cctv.png" alt="">
-                <p><br>List view of the machines in the room selected.</p>
+                <img class="blog-photo" src="../assets/images/weenix_screens/list.png" alt="">
+                <p><br>List of shell commands.</p>
 
                 <br>
-                <img class="blog-photo" src="../assets/images/oyespace/vehicles.png" alt="">
-                <p><br>Report view to report a problem with a machine.</p>
+                <img class="blog-photo" src="../assets/images/weenix_screens/kshell.png" alt="">
+                <p><br>Kshell.</p>
 
+                <br>
+                <img class="blog-photo" src="../assets/images/weenix_screens/tests.png" alt="">
+                <p><br>Tests for VFS and S5FS</p>
               </div>
           </div>
         </div>
@@ -139,7 +148,7 @@
 
 
 
-			</div>
+			</div> -->
 		</section>
     </div>
 		<!-- END: BLOG -->
